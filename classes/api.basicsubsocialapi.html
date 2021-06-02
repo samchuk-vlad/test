@@ -1,0 +1,671 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BasicSubsocialApi | Subsocial JS SDK</title>
+	<meta name="description" content="Documentation for Subsocial JS SDK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container" style="margin-left: 6rem; padding: 0">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Subsocial JS SDK</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="container container-main" style="margin: 0; padding: 0; max-width: 1300px;">
+	<div class="row">
+		<div class="col-3 col-menu menu-sticky-wrap menu-highlight" style='margin-top: 3rem'>
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+					<li class="current tsd-kind-namespace">
+						<a href="../modules/api.html">API</a>
+					</li>
+					<li class=" tsd-kind-namespace">
+						<a href="../modules/dto.html">DTO</a>
+					</li>
+					<li class=" tsd-kind-namespace">
+						<a href="../modules/interfaces.html">Interfaces</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-namespace">
+						<a href="api.basicsubsocialapi.html" class="tsd-kind-icon">Basic<wbr>Subsocial<wbr>Api</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="api.basicsubsocialapi.html#_ipfs" class="tsd-kind-icon">_ipfs</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="api.basicsubsocialapi.html#_substrate" class="tsd-kind-icon">_substrate</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#ipfs" class="tsd-kind-icon">ipfs</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#substrate" class="tsd-kind-icon">substrate</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private">
+								<a href="api.basicsubsocialapi.html#finddataarray" class="tsd-kind-icon">find<wbr>Data<wbr>Array</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#findpost" class="tsd-kind-icon">find<wbr>Post</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#findposts" class="tsd-kind-icon">find<wbr>Posts</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#findprofile" class="tsd-kind-icon">find<wbr>Profile</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#findprofiles" class="tsd-kind-icon">find<wbr>Profiles</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#findspace" class="tsd-kind-icon">find<wbr>Space</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api.basicsubsocialapi.html#findspaces" class="tsd-kind-icon">find<wbr>Spaces</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class tsd-parent-kind-namespace">
+						<a href="api.subsocialapi.html" class="tsd-kind-icon">Subsocial<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-namespace">
+						<a href="api.subsocialipfsapi.html" class="tsd-kind-icon">Subsocial<wbr>Ipfs<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-namespace">
+						<a href="api.subsocialsubstrateapi.html" class="tsd-kind-icon">Subsocial<wbr>Substrate<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-namespace">
+						<a href="api.substrateconnect.html" class="tsd-kind-icon">Substrate<wbr>Connect</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-namespace">
+						<a href="../modules/api.html#findstructsfns" class="tsd-kind-icon">Find<wbr>Structs<wbr>Fns</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-namespace">
+						<a href="../modules/api.html#subsocialapiprops" class="tsd-kind-icon">Subsocial<wbr>Api<wbr>Props</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-namespace">
+						<a href="../modules/api.html#subsocialipfsprops" class="tsd-kind-icon">Subsocial<wbr>Ipfs<wbr>Props</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-namespace">
+						<a href="../modules/api.html#supportedsubstrateid" class="tsd-kind-icon">Supported<wbr>Substrate<wbr>Id</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-namespace">
+						<a href="../modules/api.html#supportedsubstrateresult" class="tsd-kind-icon">Supported<wbr>Substrate<wbr>Result</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-namespace">
+						<a href="../modules/api.html#api-1" class="tsd-kind-icon">Api</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#asaccountid" class="tsd-kind-icon">as<wbr>Account<wbr>Id</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#asipfscid" class="tsd-kind-icon">as<wbr>Ipfs<wbr>Cid</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace tsd-has-type-parameter">
+						<a href="../modules/api.html#contentfilter" class="tsd-kind-icon">content<wbr>Filter</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#createresolvesubsocialapi" class="tsd-kind-icon">create<wbr>Resolve<wbr>Subsocial<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#getapi" class="tsd-kind-icon">get<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#getcidsofstructs" class="tsd-kind-icon">get<wbr>Cids<wbr>OfStructs</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#getipfscidofsocialaccount" class="tsd-kind-icon">get<wbr>Ipfs<wbr>Cid<wbr>OfSocial<wbr>Account</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace tsd-has-type-parameter">
+						<a href="../modules/api.html#getipfscidofstruct" class="tsd-kind-icon">get<wbr>Ipfs<wbr>Cid<wbr>OfStruct</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#getpostidfromextension" class="tsd-kind-icon">get<wbr>Post<wbr>IdFrom<wbr>Extension</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#getsharedpostid" class="tsd-kind-icon">get<wbr>Shared<wbr>Post<wbr>Id</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace tsd-has-type-parameter">
+						<a href="../modules/api.html#getuniqueids" class="tsd-kind-icon">get<wbr>Unique<wbr>Ids</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#isemptycontent" class="tsd-kind-icon">is<wbr>Empty<wbr>Content</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#isemptyipfscontent" class="tsd-kind-icon">is<wbr>Empty<wbr>Ipfs<wbr>Content</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#ishidden" class="tsd-kind-icon">is<wbr>Hidden</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#isipfs" class="tsd-kind-icon">is<wbr>Ipfs</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#ispublic" class="tsd-kind-icon">is<wbr>Public</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#isunlisted" class="tsd-kind-icon">is<wbr>Unlisted</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#isvalidipfscid" class="tsd-kind-icon">is<wbr>Valid<wbr>Ipfs<wbr>Cid</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#isvisible" class="tsd-kind-icon">is<wbr>Visible</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#loadandsetpostrelatedstructs" class="tsd-kind-icon">load<wbr>And<wbr>Set<wbr>Post<wbr>Related<wbr>Structs</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#newsubsocialapi" class="tsd-kind-icon">new<wbr>Subsocial<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#notemptyipfscontent" class="tsd-kind-icon">not<wbr>Empty<wbr>Ipfs<wbr>Content</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="../modules/api.html#resolvecidofcontent" class="tsd-kind-icon">resolve<wbr>Cid<wbr>OfContent</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace tsd-has-type-parameter">
+						<a href="../modules/api.html#visibilityfilter" class="tsd-kind-icon">visibility<wbr>Filter</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-9 col-content" style="margin-top: 3rem;">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Using this class, you can get all the data of posts, spaces and profiles from blockchain storages and ipfs</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">BasicSubsocialApi</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<a href="api.subsocialapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialApi</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="api.basicsubsocialapi.html#_ipfs" class="tsd-kind-icon">_ipfs</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="api.basicsubsocialapi.html#_substrate" class="tsd-kind-icon">_substrate</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#ipfs" class="tsd-kind-icon">ipfs</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#substrate" class="tsd-kind-icon">substrate</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private"><a href="api.basicsubsocialapi.html#finddataarray" class="tsd-kind-icon">find<wbr>Data<wbr>Array</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#findpost" class="tsd-kind-icon">find<wbr>Post</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#findposts" class="tsd-kind-icon">find<wbr>Posts</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#findprofile" class="tsd-kind-icon">find<wbr>Profile</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#findprofiles" class="tsd-kind-icon">find<wbr>Profiles</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#findspace" class="tsd-kind-icon">find<wbr>Space</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api.basicsubsocialapi.html#findspaces" class="tsd-kind-icon">find<wbr>Spaces</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Basic<wbr>Subsocial<wbr>Api<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><a href="../modules/api.html#subsocialapiprops" class="tsd-signature-type" data-tsd-kind="Type alias">SubsocialApiProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="api.basicsubsocialapi.html" class="tsd-signature-type" data-tsd-kind="Class">BasicSubsocialApi</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L28">packages/api/src/api/basic-subsocial.ts:28</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>props: <a href="../modules/api.html#subsocialapiprops" class="tsd-signature-type" data-tsd-kind="Type alias">SubsocialApiProps</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="api.basicsubsocialapi.html" class="tsd-signature-type" data-tsd-kind="Class">BasicSubsocialApi</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_ipfs" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _ipfs</h3>
+					<div class="tsd-signature tsd-kind-icon">_ipfs<span class="tsd-signature-symbol">:</span> <a href="api.subsocialipfsapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialIpfsApi</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L28">packages/api/src/api/basic-subsocial.ts:28</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gives access to subsocial ipfs api</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_substrate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _substrate</h3>
+					<div class="tsd-signature tsd-kind-icon">_substrate<span class="tsd-signature-symbol">:</span> <a href="api.subsocialsubstrateapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialSubstrateApi</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L25">packages/api/src/api/basic-subsocial.ts:25</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gives access to subsocial substrate api</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="ipfs" class="tsd-anchor"></a>
+					<h3>ipfs</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> ipfs<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="api.subsocialipfsapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialIpfsApi</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L40">packages/api/src/api/basic-subsocial.ts:40</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Accessors for privat field <a href="api.basicsubsocialapi.html#_ipfs">_ipfs</a></p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="api.subsocialipfsapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialIpfsApi</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="substrate" class="tsd-anchor"></a>
+					<h3>substrate</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> substrate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="api.subsocialsubstrateapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialSubstrateApi</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L36">packages/api/src/api/basic-subsocial.ts:36</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Accessors for privat field <a href="api.basicsubsocialapi.html#_substrate">_substrate</a></p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="api.subsocialsubstrateapi.html" class="tsd-signature-type" data-tsd-kind="Class">SubsocialSubstrateApi</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private">
+					<a name="finddataarray" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> find<wbr>Data<wbr>Array</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Data<wbr>Array&lt;Id, Struct, Content&gt;<span class="tsd-signature-symbol">(</span>ids<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Id</span><span class="tsd-signature-symbol">[]</span>, findStructs<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>ids<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Id</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Struct</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span>, findContents<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>cids<span class="tsd-signature-symbol">: </span><a href="../modules.html#ipfscid" class="tsd-signature-type" data-tsd-kind="Type alias">IpfsCid</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Content</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Struct</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Content</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L48">packages/api/src/api/basic-subsocial.ts:48</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get an array of data from blockchain storages and ipfs that is passed in the parameters of the method</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>Id<span class="tsd-signature-symbol">: </span><a href="../modules/api.html#supportedsubstrateid" class="tsd-signature-type" data-tsd-kind="Type alias">SupportedSubstrateId</a></h4>
+								</li>
+								<li>
+									<h4>Struct<span class="tsd-signature-symbol">: </span><a href="../modules.html#commonstruct" class="tsd-signature-type" data-tsd-kind="Type alias">CommonStruct</a></h4>
+								</li>
+								<li>
+									<h4>Content<span class="tsd-signature-symbol">: </span><a href="../modules.html#commoncontent" class="tsd-signature-type" data-tsd-kind="Type alias">CommonContent</a></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>ids: <span class="tsd-signature-type">Id</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>findStructs: <span class="tsd-signature-symbol">(</span>ids<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Id</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Struct</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>gets an array of structures by ids</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>ids<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Id</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Struct</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>ids: <span class="tsd-signature-type">Id</span><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Struct</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>findContents: <span class="tsd-signature-symbol">(</span>cids<span class="tsd-signature-symbol">: </span><a href="../modules.html#ipfscid" class="tsd-signature-type" data-tsd-kind="Type alias">IpfsCid</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Content</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>gets contents by cids</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>cids<span class="tsd-signature-symbol">: </span><a href="../modules.html#ipfscid" class="tsd-signature-type" data-tsd-kind="Type alias">IpfsCid</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Content</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>cids: <a href="../modules.html#ipfscid" class="tsd-signature-type" data-tsd-kind="Type alias">IpfsCid</a><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Content</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Struct</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Content</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findpost" class="tsd-anchor"></a>
+					<h3>find<wbr>Post</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Post<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><a href="../modules.html#findstruct" class="tsd-signature-type" data-tsd-kind="Type alias">FindStruct</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anypostid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyPostId</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.post.html" class="tsd-signature-type" data-tsd-kind="Interface">Post</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#postcontent" class="tsd-signature-type" data-tsd-kind="Type alias">PostContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L118">packages/api/src/api/basic-subsocial.ts:118</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find and load single post</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>__namedParameters: <a href="../modules.html#findstruct" class="tsd-signature-type" data-tsd-kind="Type alias">FindStruct</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anypostid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyPostId</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.post.html" class="tsd-signature-type" data-tsd-kind="Interface">Post</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#postcontent" class="tsd-signature-type" data-tsd-kind="Type alias">PostContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findposts" class="tsd-anchor"></a>
+					<h3>find<wbr>Posts</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Posts<span class="tsd-signature-symbol">(</span>filter<span class="tsd-signature-symbol">: </span><a href="../modules.html#findstructs" class="tsd-signature-type" data-tsd-kind="Type alias">FindStructs</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anypostid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyPostId</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.post.html" class="tsd-signature-type" data-tsd-kind="Interface">Post</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#postcontent" class="tsd-signature-type" data-tsd-kind="Type alias">PostContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L84">packages/api/src/api/basic-subsocial.ts:84</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find and load an array of posts</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>filter: <a href="../modules.html#findstructs" class="tsd-signature-type" data-tsd-kind="Type alias">FindStructs</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anypostid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyPostId</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.post.html" class="tsd-signature-type" data-tsd-kind="Interface">Post</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#postcontent" class="tsd-signature-type" data-tsd-kind="Type alias">PostContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findprofile" class="tsd-anchor"></a>
+					<h3>find<wbr>Profile</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Profile<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><a href="../modules.html#anyaccountid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyAccountId</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#profiledata" class="tsd-signature-type" data-tsd-kind="Type alias">ProfileData</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L122">packages/api/src/api/basic-subsocial.ts:122</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find and load single profile</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <a href="../modules.html#anyaccountid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyAccountId</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#profiledata" class="tsd-signature-type" data-tsd-kind="Type alias">ProfileData</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findprofiles" class="tsd-anchor"></a>
+					<h3>find<wbr>Profiles</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Profiles<span class="tsd-signature-symbol">(</span>ids<span class="tsd-signature-symbol">: </span><a href="../modules.html#anyaccountid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyAccountId</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#profiledata" class="tsd-signature-type" data-tsd-kind="Type alias">ProfileData</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L97">packages/api/src/api/basic-subsocial.ts:97</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find and load an array of profiles</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>ids: <a href="../modules.html#anyaccountid" class="tsd-signature-type" data-tsd-kind="Type alias">AnyAccountId</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#profiledata" class="tsd-signature-type" data-tsd-kind="Type alias">ProfileData</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findspace" class="tsd-anchor"></a>
+					<h3>find<wbr>Space</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Space<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><a href="../modules.html#findstruct" class="tsd-signature-type" data-tsd-kind="Type alias">FindStruct</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anyspaceid" class="tsd-signature-type" data-tsd-kind="Type alias">AnySpaceId</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.space.html" class="tsd-signature-type" data-tsd-kind="Interface">Space</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#spacecontent" class="tsd-signature-type" data-tsd-kind="Type alias">SpaceContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L114">packages/api/src/api/basic-subsocial.ts:114</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find and load single space</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>__namedParameters: <a href="../modules.html#findstruct" class="tsd-signature-type" data-tsd-kind="Type alias">FindStruct</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anyspaceid" class="tsd-signature-type" data-tsd-kind="Type alias">AnySpaceId</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.space.html" class="tsd-signature-type" data-tsd-kind="Interface">Space</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#spacecontent" class="tsd-signature-type" data-tsd-kind="Type alias">SpaceContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findspaces" class="tsd-anchor"></a>
+					<h3>find<wbr>Spaces</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Spaces<span class="tsd-signature-symbol">(</span>filter<span class="tsd-signature-symbol">: </span><a href="../modules.html#findstructs" class="tsd-signature-type" data-tsd-kind="Type alias">FindStructs</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anyspaceid" class="tsd-signature-type" data-tsd-kind="Type alias">AnySpaceId</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.space.html" class="tsd-signature-type" data-tsd-kind="Interface">Space</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#spacecontent" class="tsd-signature-type" data-tsd-kind="Type alias">SpaceContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/dappforce/subsocial-js/blob/c91a897/packages/api/src/api/basic-subsocial.ts#L72">packages/api/src/api/basic-subsocial.ts:72</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find and load an array of spaces</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>filter: <a href="../modules.html#findstructs" class="tsd-signature-type" data-tsd-kind="Type alias">FindStructs</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#anyspaceid" class="tsd-signature-type" data-tsd-kind="Type alias">AnySpaceId</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/dto.html#commondata" class="tsd-signature-type" data-tsd-kind="Type alias">CommonData</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/interfaces.space.html" class="tsd-signature-type" data-tsd-kind="Interface">Space</a><span class="tsd-signature-symbol">, </span><a href="../modules.html#spacecontent" class="tsd-signature-type" data-tsd-kind="Type alias">SpaceContent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
